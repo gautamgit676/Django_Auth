@@ -22,7 +22,6 @@ class CustomEmailBackend(EmailBackend):
             host=self.host,
             port=self.port,
             timeout=self.timeout,
-       
         )
 
         # Secure the connection with TLS if required
@@ -32,5 +31,4 @@ class CustomEmailBackend(EmailBackend):
         # Log in to the SMTP server if username and password are set
         if self.username and self.password:
             self.connection.login(self.username, self.password)
-
         return True

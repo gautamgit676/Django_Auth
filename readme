@@ -1,0 +1,29 @@
+Authentication Microservice
+
+- Built a complete Authentication System with full backend functionalities.
+- Spent approximately 9 hours to design, develop, and complete the assignment.
+- Integrated JWT Token-based Authentication for secure user session management.
+
+- Functionality Add
+    - User Register ---> Send Email on register user 
+    - User Update
+    - User Login    ---> when login genrate otp and send useing email
+    - Password Reset
+    - OTP Send Useing Email 
+    - OTP Veryfy
+    - Permision to all User 
+        - Admin : Full ACSSES
+        - Manager : Cretae, Update, Get
+        - Employee : Get
+    - Celery 
+
+- Celery is used to handle multiple requests efficiently and send emails asynchronously in the background.
+
+- Redis is used as a message broker for Celery to manage task queues.
+
+- Redis is also used for caching frequently accessed data to improve system performance.
+
+
+
+
+
