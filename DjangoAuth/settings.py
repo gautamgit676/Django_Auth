@@ -117,8 +117,8 @@ EMAIL_BACKEND = 'app.custom_email_backend.CustomEmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # SMTP server address
 EMAIL_PORT = 587  # Port for SMTP
 EMAIL_USE_TLS = True  # Whether to use a TLS (secure) connection
-EMAIL_HOST_USER = 'gautamsinh987@gmail.com'  # Your email address
-EMAIL_HOST_PASSWORD = 'qyuxquocrckrmhrk'  # Your email password or app password if using Gmail or similar services
+EMAIL_HOST_USER = 'Your_Email'  # Your email address
+EMAIL_HOST_PASSWORD = 'your_password'  # Your email password or app password if using Gmail or similar services
 
 CELERY_TIMEZONE = "Asia/Kolkata"
 CELERY_TASK_TRACK_STARTED = True
